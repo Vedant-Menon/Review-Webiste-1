@@ -28,10 +28,38 @@ resize:"fit";
         }    
 
 .text{
-    margin-left: 200px;
-    margin-top: 150px;
+    margin-left: 450px;
+    margin-top: 100px;
     justify-content: center;
         color:white;
         font-weight: bold;
         font-size: 30px;
-}        
+} 
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    }
+
+    .grid img{
+        border: 2px solid black;
+        border-radius: 50px;
+        }
+
+ 
+
+.book {
+        border-radius: 20px;
+        background-color: #ffffff;
+        padding: 30px;
+        margin: 25px;
+        width:300px;
+        height:500px;
+        font-family: fantasy;
+        }
+
+.book:hover{
+            transform: scale(1.2);
+            }           
